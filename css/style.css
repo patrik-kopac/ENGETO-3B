@@ -99,6 +99,16 @@ body {
 /*..............zariadenia 0-576px.....................*/
 
 @media (max-width: 576px) {
+    .menu-icon {
+        width: 2rem;
+        float: right;
+        margin: 2px 10px 0 0;
+    }
+
+    .navigation {
+        height: 2.5rem;
+    }
+
     .navigation ul {
         display: none;
     }
@@ -118,6 +128,7 @@ body {
     .hero-image {
         height: 70vh;
     }
+
 }
 
 /*..............zariadenia 576-768px.....................*/
@@ -129,6 +140,10 @@ body {
 
     .hero-text h1 {
         font-size: 26px;
+    }
+
+    .menu-icon {
+      display: none;   
     }
 }
     
@@ -148,6 +163,10 @@ body {
     .hero-text h1 {
         font-size: 32px;
     }
+
+    .menu-icon {
+        display: none;   
+      }
 }
 
 /*..............zariadenia 992-1200px.....................*/
@@ -165,6 +184,10 @@ body {
     .hero-text h1 {
         font-size: 36px;
     }
+
+    .menu-icon {
+        display: none;   
+      }
 }
 
 /*..............zariadenia 1200+ px.....................*/
@@ -182,4 +205,8 @@ body {
     .hero-text h1 {
         font-size: 44px;
     }
+
+    .menu-icon {
+        display: none;   
+      }
 }
