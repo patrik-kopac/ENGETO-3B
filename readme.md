@@ -1,0 +1,1 @@
+Vytváram jednoduchú responzívnu stránku na základe zadania od ENGETO. Resp. nejdem podľa postupu, beriem si z toho len linky na obrázky a skúšam to spraviť podľa grafickej predlohy sám, uvidíme, jak mi to pôjde.
