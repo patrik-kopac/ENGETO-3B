@@ -1,1 +1,41 @@
+/*...................BASICS.....................*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid purple;
+}
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*...................SHARED.....................*/
+
+.navigation,
+.hero-image,
+.birds-image {
+    border-radius: 10px;
+}
+
+.navigation,
+.hero-section,
+.content {
+    margin: 2rem 3rem 0 3rem;
+}
+
+/*...................NAVIGATION.....................*/
+
+.navigation {
+    background: #F08D8F;
+    color: white;
+    font-weight: 700;
+}
+
+/*...................MAIN.....................*/
+
+
+/*...................hero section.....................*/
+
+
+/*...................content.....................*/
