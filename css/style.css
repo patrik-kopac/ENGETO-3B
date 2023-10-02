@@ -74,6 +74,14 @@ body {
     color: white;
 }
 
+.hero-text div {
+    font-size: 16px;
+}
+
+.hero-text h1 {
+    font-size: 32px;
+}
+
 /*...................content.....................*/
 
 .birds-img-container {
@@ -94,11 +102,27 @@ body {
     .navigation ul {
         display: none;
     }
+
+    .hero-text div {
+        font-size: 12px;
+    }
+
+    .hero-text h1 {
+        font-size: 20px;
+    }
 }
 
 /*..............zariadenia 576-768px.....................*/
 
 @media (min-width: 576px) {
+    .hero-text div {
+        font-size: 13px;
+    }
+
+    .hero-text h1 {
+        font-size: 26px;
+    }
+}
     
 
 /*..............zariadenia 768-992px.....................*/
@@ -107,6 +131,14 @@ body {
     .navigation a {
         padding: 1rem 3rem;
         font-size: 16px;
+    }
+
+    .hero-text div {
+        font-size: 16px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
     }
 }
 
@@ -117,6 +149,14 @@ body {
         padding: 1rem 4rem;
         font-size: 18px;
     }
+
+    .hero-text div {
+        font-size: 18px;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
 }
 
 /*..............zariadenia 1200+ px.....................*/
@@ -125,5 +165,13 @@ body {
     .navigation a {
         padding: 1rem 5rem;
         font-size: 20px;
+    }
+
+    .hero-text div {
+        font-size: 22px;
+    }
+
+    .hero-text h1 {
+        font-size: 44px;
     }
 }
