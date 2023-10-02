@@ -21,7 +21,7 @@ body {
 .navigation,
 .hero-section,
 .content {
-    margin: 2rem 3rem 0 3rem;
+    margin: 1rem 2rem 0 2rem;
 }
 
 /*...................NAVIGATION.....................*/
@@ -37,5 +37,24 @@ body {
 
 /*...................hero section.....................*/
 
+.hero-img-container {
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
 
 /*...................content.....................*/
+
+.birds-img-container {
+    width: 50%;
+}
+
+.birds-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
