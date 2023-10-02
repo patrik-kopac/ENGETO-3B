@@ -28,7 +28,6 @@ body {
 
 .navigation {
     background: #F08D8F;
-    color: white;
     font-weight: 700;
     font-size: 14px;
     text-align: center;
@@ -36,7 +35,17 @@ body {
 
 .navigation li {
     display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
     padding: 1rem 2rem;
+    display: inline-block;
+}
+
+.navigation a:hover {
+    color: #F8C9CA;
 }
 
 /*...................MAIN.....................*/
@@ -95,7 +104,7 @@ body {
 /*..............zariadenia 768-992px.....................*/
 
 @media (min-width: 768px) {
-    .navigation li {
+    .navigation a {
         padding: 1rem 3rem;
         font-size: 16px;
     }
@@ -104,7 +113,7 @@ body {
 /*..............zariadenia 992-1200px.....................*/
 
 @media (min-width: 992px) {
-    .navigation li {
+    .navigation a {
         padding: 1rem 4rem;
         font-size: 18px;
     }
@@ -113,7 +122,7 @@ body {
 /*..............zariadenia 1200+ px.....................*/
 
 @media (min-width: 1200px) {
-    .navigation li {
+    .navigation a {
         padding: 1rem 5rem;
         font-size: 20px;
     }
