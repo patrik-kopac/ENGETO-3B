@@ -30,6 +30,13 @@ body {
     background: #F08D8F;
     color: white;
     font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+    padding: 1rem 3rem;
 }
 
 /*...................MAIN.....................*/
@@ -69,3 +76,5 @@ body {
     height: auto;
     object-fit: cover;
 }
+
+
