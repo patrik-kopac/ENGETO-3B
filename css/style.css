@@ -63,7 +63,7 @@ body {
 
 .hero-image {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -90,7 +90,7 @@ body {
 
 .birds-image {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -109,6 +109,14 @@ body {
 
     .hero-text h1 {
         font-size: 20px;
+    }
+
+    .birds-img-container {
+        width: 100%;
+    }
+
+    .hero-image {
+        height: 70vh;
     }
 }
 
