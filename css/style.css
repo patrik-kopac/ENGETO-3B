@@ -64,6 +64,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: left;
 }
 
 .hero-text {
@@ -109,7 +110,7 @@ body {
     .navigation a {
         padding: 0;
         float: right;
-        margin: 1px 5px 0 0;
+        margin: 2px 5px 0 0;
     }
 
     .navigation ul {
@@ -128,8 +129,13 @@ body {
         width: 100%;
     }
 
+    .birds-image {
+        height: 45vh;
+        object-position: right;
+    }
+
     .hero-image {
-        height: 70vh;
+        height: 65vh;
     }
 
 }
